@@ -1,0 +1,69 @@
+/* Google Fonts Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  margin-top: 10%;
+  height:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image:radial-gradient(black,white);
+}
+.productcard {
+  display:inline-table;
+  position:relative;
+  max-width:400px;
+  width: 100%;
+  border-radius: 25px;
+  padding: 20px 30px 30px 30px;
+  background:white;
+  margin: 1rem;
+}
+
+
+
+.productcard .mainimages{
+  position:relative;
+  height: 350px;
+}
+.productcard .mainimages img{
+  padding: 50px;
+  transition: transform .4s;
+
+  position:absolute;
+  max-height: 350px;
+  max-width: 350px;
+  object-fit:cover;
+  }
+  .mainimages:hover{
+    transform: scale(1.5);
+  }
+.productcard .button{
+  
+  position: relative;
+  height: 50px;
+  width: 100%;
+  border-radius: 25px;
+  margin-top: 30px;
+
+}
+.productcard .button button{
+  cursor: pointer;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: black;
+  outline: none;
+  border-radius: 10%;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: white;
+}
